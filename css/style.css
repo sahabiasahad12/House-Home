@@ -1,0 +1,692 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'source sans 3', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'source sans 3', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+
+.header{
+	width: 100%;
+	padding: 10px 0px;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+}
+.header .nav-link{
+    font-size: 15px ;
+    font-weight: 600 ;
+    color: white;
+    text-transform: uppercase ;
+    margin: 0px 0px 0px 10px ;  
+}
+.header .nav-link:focus{
+    color: #edc315 ;
+    transition: 1s ;
+}
+.header .nav-link:hover{
+    color: #edc315 ;
+    transition: 1s ;
+}
+.header .navbar-nav .nav-link.active{
+    color: #fff;
+    color: #edc315 ;
+    transition: 1s ;
+}
+.banner{
+	width: 100%;
+	padding: 90px 0px;
+}
+.banner h4{
+	margin: 0px 33px 0px -85px;
+	text-align: center;
+	color: #fff;
+}
+.banner h2 span{
+	color: #0b1de7;
+	margin: 0px 0px 0px -33px;
+}
+.banner h2{
+	font-size: 75px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+}
+.banner h3{
+	font-size: 37px;
+    margin: -11px 43px 0px -55px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #fff;
+}
+.banner p{
+	font-size: 18px;
+	color: #fff;
+}
+.feature{
+	width: 100%;
+	padding: 10px 0px;
+	background: url("../images/m3.png") center top no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.feature{
+	width: 100%;
+	padding: 180px 0px;
+}
+.feature h1{
+	font-size: 47px;
+	font-weight: 600;
+	line-height: 1;
+	text-align: center;
+	color: #fff;   
+}
+.feature h1 span{
+	color: #0b1de7;
+}
+.feature img{
+    display: flex;
+    margin: auto;
+    padding: 18px 0px;
+    color: #fff;
+   
+}
+.feature h5{
+	color: #000;
+	text-align: center;
+	font-weight: 500;
+		
+}
+.feature p{
+	color: #585858;
+	text-align: center;		
+}
+.want{
+	width: 100%;
+	padding: 10px 0px;
+	background: url("../images/m18.png") center top no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.want h1{
+	font-size: 33px;
+    margin: 32px 11pc;
+    font-weight: 600;
+}
+.want h1 span{
+	font-size: 33px;
+    margin: 32px 0pc;
+    font-weight: 600;
+    color: #2b2b;
+}
+.want h3{
+	font-size: 33px;
+	margin: 10px 11pc;
+}
+
+.want h2{
+	font-size: 22px;
+    margin: -45px 14pc;
+}
+.want .id img{
+	 margin: 10px 10pc;
+}
+.want h4{
+	font-size: 22px;
+    margin: -99px 14pc;
+}
+.want img{
+	    margin: 70px 169px;
+}
+.want .coll h5{
+	font-size: 22px;
+    margin: 11pc 11pc;
+}
+.want .link h6{
+	font-size: 22px;
+    margin: -10pc 11pc;
+}
+
+.counter h3{
+	padding: 50px;
+	font-size: 32px;
+	color: #000;
+}
+.counter h1{
+	margin: -54px 44px;
+    font-size: 65px;
+    font-weight: 600;
+    color: #829c2d;
+    letter-spacing: 1px;
+}
+.counter p{
+    padding: 90px 0px 0px 47px;
+    font-size: 20px;
+}
+ .counter .hidden img{
+ 	width: 100%;
+ }
+ .counter .tabindex img{
+ 	width: 100%;
+ }
+ .counter .onab img{
+ 	width: 100%;
+ }
+ .crop{
+ 	width: 100%;
+ 	padding: 10px 0px;
+ 	background: url("../images/m22.png") center top no-repeat;
+ 	background-size: cover;
+ 	height: 100vh;
+ }
+.crop{
+	width: 100%;
+	padding: 180px 0px;
+}
+.crop h1{
+	font-size: 65px;
+    font-weight: 600;
+    color: #313b30;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+.crop p{
+	padding: 38px 0px 0px 2px;
+    font-size: 20px;
+}
+.pink{
+	width: 100%;
+	padding: 10px 0px;
+	background: url("../images/m23.png") center top no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.pink{
+	width: 100%;
+	padding: 180px 0px;
+}
+.pink h1{
+	font-size: 65px;
+	line-height: 1;
+	color: #000000;
+}
+.pink p{
+	padding: 38px 0px 0px 2px;
+    font-size: 20px;
+}
+.Need-Help{
+	width: 100%;
+	padding: 10px 0px;
+	background: url("../images/m24.png") center top no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.Need-Help{
+	width: 100%;
+	padding: 180px 0px;
+}
+.Need-Help h1{
+	padding: 0px 34px;
+	font-size: 56px;
+	line-height: 1;
+	color: #fff;
+}
+.Need-Help h1 span{
+	 margin: 27px;
+    color: #0b1de7;
+}
+.Need-Help h3{
+    padding: 45px 0px 0px 10pc;
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+}
+.Need-Help p{
+	 padding: 7px 0px 0px;
+    font-size: 24px;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+}
+
+.Our-Happy h2{
+	text-align: center;
+	
+}
+.Our-Happy h2 span{
+	color: #19ec12;
+}
+
+.Our-Happy h3{
+	font-size: 22px;
+	text-align: center;
+}
+.Our-Happy img{
+ 	width: 100%;
+ }
+ .Our-Happy h4{
+ 	font-size: 18px;
+ 	color: #64db18;
+ }
+ .linking-here{
+ 	width: 100%;
+ 	padding: 10px 0px;
+ 	background: url("../images/m25.png") center top no-repeat;
+ 	background-size: cover;
+ 	height: 100vh;
+ }
+ .linking-here{
+ 	width: 100%;
+ 	padding: 180px 0px;
+ }
+.linking-here h1{
+	 font-size: 56px;
+    color: #fff;
+    margin: 0px 95px;
+}
+.footer{
+	padding: 30px 0px;
+	background: #141be2;
+}
+.footer h3{
+	text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+
+  
+
+
+
+.header .nav-link{
+	font-size: 12px;
+}
+.banner{
+	padding: 30px 0px;
+}
+
+.banner h4{
+	font-size: 22px;
+    margin: 0px 0px 10px -34px;
+}
+.banner h2{
+	font-size: 52px;
+}
+.banner h2 span{
+	text-align: center;
+	margin: 0px 0px 0px -18px;
+}
+.banner h3{
+	font-size: 26px;
+	margin: 0px 0px 10px -34px;
+}
+.banner .conta img{
+	text-align: center;
+    display: flex;
+    margin: auto;
+    margin: 20px 64px;
+}
+.banner p {
+	font-size: 12px;
+    text-align: center;
+}
+.banner .hira img{
+	text-align: center;
+    display: flex;
+    margin: 20px 98px;
+}
+.feature h1{
+	font-size: 45px;
+}
+.feature img{
+	display: flex;
+    margin: auto;
+    padding: 13px 0px;
+    color: #fff;
+}
+.want h1{
+	font-size: 26px;
+    margin: 0px;
+    text-align: center;
+}
+.want h3{
+	font-size: 23px;
+    margin: 17px;
+    text-align: center;
+}
+.want .id img{
+	margin: 10px 55px;
+}
+.want h2{
+	font-size: 22px;
+    margin: -40px 8pc;
+} 
+.want img{
+    margin: 57px 4pc;
+}
+.want h4{
+	font-size: 17px;
+    margin: -84px 6pc;
+    text-align: center;
+}
+.want .coll h5{
+	font-size: 21px;
+    margin: 11pc 6pc;
+}
+.want .link h6{
+	font-size: 20px;
+    margin: -10pc 4pc;
+    text-align: center;
+}
+.counter{
+	padding: 1px 0px;
+}
+.counter h3{
+	padding: 6px 45px;
+    font-size: 26px;
+    color: #000;
+}
+.counter h1 {
+    margin: -9px 44px;
+    font-size: 52px;
+    font-weight: 600;
+    color: #829c2d;
+    letter-spacing: 1px;
+}
+.counter p {
+    padding: 25px 0px 0px 47px;
+    font-size: 16px;
+}
+.counter .hidden img {
+    width: 100%;
+    margin: 16px 8px;
+}
+.counter .tabindex img {
+    width: 100%;
+    margin: 16px 8px;
+}
+.counter .onab img {
+    width: 100%;
+    margin: 16px 8px;
+}
+.crop h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #313b30;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+.crop p {
+    padding: 13px 0px 0px 2px;
+    font-size: 16px;
+}
+.pink h1 {
+    font-size: 48px;
+    line-height: 1;
+    color: #000000;
+}
+.pink p {
+    padding: 18px 0px 0px 2px;
+    font-size: 16px;
+}
+.Need-Help h1 {
+    font-size: 32px;
+    line-height: 1;
+    color: #fff;
+}
+.Need-Help h3 {
+    padding: 40px 0px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+.Need-Help p {
+    padding: 7px 0px 0px;
+    font-size: 18px;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+}
+.Our-Happy h4 {
+    font-size: 16px;
+    color: #64db18;
+}
+.linking-here h1 {
+    font-size: 22px;
+    color: #fff;
+    margin: 0px 95px;
+}
+.footer h3 {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+/* css end */
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+
+
+
+.header .nav-link{
+	font-size: 13px;
+}
+.banner{
+	padding: 40px 0px;
+}
+
+.banner h4{
+	font-size: 24px;
+    margin: 0px 0px 10px -34px;
+}
+.banner h2{
+	font-size: 53px;
+}
+.banner h2 span{
+	text-align: center;
+	margin: 0px 0px 0px -18px;
+}
+.banner h3{
+	font-size: 28px;
+	margin: 0px 0px 10px -34px;
+}
+.banner .conta img{
+	text-align: center;
+    display: flex;
+    margin: auto;
+    margin: 20px 64px;
+}
+.banner p {
+	font-size: 13px;
+    text-align: center;
+}
+.banner .hira img{
+	text-align: center;
+    display: flex;
+    margin: 20px 98px;
+}
+.feature h1{
+	font-size: 47px;
+}
+.feature img{
+	display: flex;
+    margin: auto;
+    padding: 13px 0px;
+    color: #fff;
+}
+.want h1{
+	font-size: 28px;
+    margin: 0px;
+    text-align: center;
+}
+.want h3{
+	font-size: 24px;
+    margin: 17px;
+    text-align: center;
+}
+.want .id img{
+	margin: 10px 55px;
+}
+.want h2{
+	font-size: 24px;
+    margin: -40px 8pc;
+} 
+.want img{
+    margin: 57px 4pc;
+}
+.want h4{
+	font-size: 18px;
+    margin: -84px 6pc;
+    text-align: center;
+}
+.want .coll h5{
+	font-size: 23px;
+    margin: 11pc 6pc;
+}
+.want .link h6{
+	font-size: 22px;
+    margin: -10pc 4pc;
+    text-align: center;
+}
+.counter{
+	padding: 1px 0px;
+}
+.counter h3{
+	padding: 6px 45px;
+    font-size: 28px;
+    color: #000;
+}
+.counter h1 {
+    margin: -9px 44px;
+    font-size: 54px;
+    font-weight: 600;
+    color: #829c2d;
+    letter-spacing: 1px;
+}
+.counter p {
+    padding: 35px 0px 0px 47px;
+    font-size: 18px;
+}
+.counter .hidden img {
+    width: 100%;
+    margin: 16px 8px;
+}
+.counter .tabindex img {
+    width: 100%;
+    margin: 16px 8px;
+}
+.counter .onab img {
+    width: 100%;
+    margin: 16px 8px;
+}
+.crop h1 {
+    font-size: 52px;
+    font-weight: 600;
+    color: #313b30;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+.crop p {
+    padding: 23px 0px 0px 2px;
+    font-size: 16px;
+}
+.pink h1 {
+    font-size: 50px;
+    line-height: 1;
+    color: #000000;
+}
+.pink p {
+    padding: 28px 0px 0px 2px;
+    font-size: 16px;
+}
+.Need-Help h1 {
+    font-size: 34px;
+    line-height: 1;
+    color: #fff;
+}
+.Need-Help h3 {
+    padding: 40px 0px;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+}
+.Need-Help p {
+    padding: 7px 0px 0px;
+    font-size: 19px;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+}
+.Our-Happy h4 {
+    font-size: 18px;
+    color: #64db18;
+}
+.linking-here h1 {
+    font-size: 24px;
+    color: #fff;
+    margin: 0px 95px;
+}
+.footer h3 {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+
+  .header .nav-link{
+	font-size: 13px;
+}
+.banner{
+	padding: 40px 0px;
+}
+
+.banner h4{
+	font-size: 24px;
+    margin: 0px 0px 10px -34px;
+}
+.banner h2{
+	font-size: 53px;
+}
+  
+}
